@@ -1,31 +1,3 @@
-[package]
-name = "pin-project-lite"
-version = "0.2.4"
-authors = ["Taiki Endo <te316e89@gmail.com>"]
-edition = "2018"
-license = "Apache-2.0 OR MIT"
-repository = "https://github.com/taiki-e/pin-project-lite"
-documentation = "https://docs.rs/pin-project-lite"
-keywords = ["pin", "macros"]
-categories = ["no-std", "rust-patterns"]
-readme = "README.md"
-exclude = ["/.github", "/scripts"]
-description = """
-A lightweight version of pin-project written with declarative macros.
-"""
-
-[package.metadata.docs.rs]
-targets = ["x86_64-unknown-linux-gnu"]
-
-[workspace]
-members = [
-    "tests/doc",
-    "tests/expand",
-    "tests/no-core",
-    "tests/no-std",
-]
-
-[dev-dependencies]
-rustversion = "1"
-static_assertions = "1"
-trybuild = "1"
+version https://git-lfs.github.com/spec/v1
+oid sha256:a16f4c030ef0d7f2d4df9486458e8f22ed95ebfc0c35af884a0155a725e55b7c
+size 724
